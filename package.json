@@ -1,0 +1,15 @@
+{
+  "name": "quota-guard-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quota Guard: demo and shared workflow system for Vercel",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/dev.cjs",
+    "start": "node --env-file-if-exists=.env scripts/dev.cjs",
+    "test": "node --test test/*.test.cjs",
+    "check": "node scripts/check.cjs"
+  }
+}
